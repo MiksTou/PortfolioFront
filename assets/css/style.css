@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3626C4;
+}
+
+
+
+.logoGnavBar{
+    width: 50%;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.nav a{
+    padding: 1em;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.nav .ulLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+.nav .ulLeft li a:nth-child(1n){
+    width: 30%;
+    position: relative;
+    right: 3rem;
+    bottom: 1.5rem;
+}
+
+header nav ul:nth-child(2n){
+    justify-content: flex-end;
+ }
