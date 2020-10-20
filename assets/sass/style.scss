@@ -1,0 +1,60 @@
+$backgoundColor: #7d26c4; 
+
+body { 
+    margin: 0px;
+    padding: 0px;
+    background-color: $backgoundColor;
+}
+
+.navBar {
+    margin: auto;
+    width: 90%;
+    
+     header nav {
+        
+        .mainNav {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+          }    
+        
+        ul li{
+            padding: 15px;
+            color: #FFF;
+            font-size: 2rem;
+
+            a{
+                color: #FFF;
+            }
+        }
+     }
+
+  }
+
+.push{
+    margin-left: auto;
+}
+
+.goLeft{
+   position: relative;
+   right: 4rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logoG
+{
+    width: 100%;
+}
+  
+.liG{
+    width: 130px;
+    height: 100px;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+  
+
