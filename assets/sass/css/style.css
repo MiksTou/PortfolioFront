@@ -8,14 +8,18 @@ body {
   margin: auto;
   width: 90%;
 }
+.navBar header nav {
+  background-color: #18181b;
+}
 .navBar header nav .mainNav {
   display: flex;
   flex-direction: row;
+  position: relative;
+  top: 1rem;
   list-style: none;
 }
 .navBar header nav ul li {
   padding: 15px;
-  color: #FFF;
   font-size: 2rem;
 }
 .navBar header nav ul li a {
@@ -23,7 +27,8 @@ body {
 }
 
 .push {
-  margin-left: auto;
+  position: relative;
+  left: 50rem;
 }
 
 .goLeft {
@@ -43,7 +48,32 @@ a {
   width: 130px;
   height: 100px;
   position: relative;
-  bottom: 2.5rem;
+  bottom: 1.5rem;
+}
+
+.contaiArclabs {
+  position: relative;
+  left: 13rem;
+  top: 3rem;
+}
+
+.colArclabs2 {
+  position: relative;
+  top: 15rem;
+  font-size: 1.5rem;
+}
+
+.colArclabsH2 {
+  font-size: 3rem;
+  color: #FFF;
+}
+
+.orange {
+  color: #E68B45;
+}
+
+.imgArclabs {
+  width: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
