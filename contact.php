@@ -12,7 +12,7 @@
     <body>
 
         <?php include 'libs/header.php'; ?>
-        <?php include 'libs/main.php'; ?>   
+        
        
     </body>   
 </html>

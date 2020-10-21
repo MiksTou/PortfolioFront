@@ -89,4 +89,12 @@ a {
   width: 80%;
 }
 
+.mainDiv {
+  position: relative;
+  top: 12rem;
+}
+.mainDiv h2 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
