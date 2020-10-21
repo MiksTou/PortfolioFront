@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0px;
   padding: 0px;
@@ -7,7 +8,7 @@ body {
 .navBar {
   margin: auto;
   width: 100%;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 2;
 }
@@ -57,7 +58,7 @@ a {
 .container {
   position: relative;
   left: 15rem;
-  top: 14rem;
+  top: 4rem;
 }
 .container .row2Main {
   margin-top: 5rem;
@@ -91,10 +92,69 @@ a {
 
 .mainDiv {
   position: relative;
-  top: 12rem;
+  top: 2rem;
 }
 .mainDiv h2 {
   text-align: center;
+}
+.mainDiv .container {
+  position: relative;
+  top: 3rem;
+  left: 18rem;
+}
+.mainDiv .row2 {
+  position: relative;
+  top: 4rem;
+}
+
+.fondImgMontagne {
+  background-image: url("../../img/fondAbout/fondAboutMontagne.svg");
+  background-size: cover;
+}
+
+.txtBordRaised {
+  position: relative;
+  left: 15rem;
+  bottom: 3rem;
+  color: white;
+}
+
+.tailleTxtAbout {
+  font-size: x-large;
+}
+
+.imgBordAnd {
+  width: 30%;
+  position: relative;
+  top: 2.5rem;
+}
+
+.fondImgForet {
+  background-image: url("../../img/fondAbout/fondForêtAbout.jpg");
+  background-size: cover;
+}
+
+.positionH2bot {
+  position: relative;
+  top: 9rem;
+}
+
+.btn {
+  cursor: pointer;
+  text-align: left;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #E68B45;
+  line-height: 24px;
+  font-size: 11px;
+  letter-spacing: 0.79px;
+  border: #E68B45 3px solid;
+  border-radius: 6px;
+}
+
+.divBtnSubmit {
+  position: relative;
+  left: 19rem;
 }
 
 /*# sourceMappingURL=style.css.map */

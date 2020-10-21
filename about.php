@@ -20,26 +20,31 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 aboutCol">
-                        <img src="assets/img/fondAbout/fondForêtAbout.jgp" alt="fondAboutForêt">
-                        <p>test</p>
+                    <div class="col-sm-6 fondImgMontagne">
+                        <img src="assets/img/PAexemple.png" alt="photoProfil" class="imgBordAnd">
+                        <div class="txtBordRaised">  
+                            <h6 class="orange tailleTxtAbout">Bord and raised in</h6>
+                            <h4 class="tailleTxtAbout">Bordeaux, France</h4>
+                        </div>    
                     </div>
 
-                    <div class="col-sm-6">
-
-                    </div>
+                    
                 </div>
 
-                <div class="row">
-                    <div class="col-sm-6">
-                    <img src="assets/img/fondAbout/fontAboutMontagne.svg" alt="fondAboutMontagne">
-                    </div>
-
-                    <div class="col-sm-6">
-
+                <div class="row row2">
+                    <div class="col-sm-6 fondImgForet">
+                        <img src="assets/img/logo/logoTalis.png" alt="photoProfil" class="imgBordAnd">
+                            <div class="txtBordRaised">  
+                                <h6 class="orange tailleTxtAbout">Student in</h6>
+                                <h4 class="tailleTxtAbout">Talis Buisness School</h4>
+                            </div>    
                     </div>
                 </div>
             </div>
+            <h2 class="positionH2bot orange">Currently student at Talis</h2>
         </div>
+
+
+
     </body>   
 </html>

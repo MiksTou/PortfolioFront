@@ -13,6 +13,9 @@
                     <li class="goLeft"> 
                         <a href="about.php">About</a> 
                     </li>
+                    <li class="goLeft"> 
+                        <a href="contact.php">Contact</a> 
+                    </li>
 
                     <li class="push">
                         <a href="https://github.com/MiksTou" target="_blank"><img src="assets/img/logo/Icon awesome-github.png" alt="logoGitHub"></a>
