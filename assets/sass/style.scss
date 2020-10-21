@@ -9,15 +9,17 @@ body {
 
 .navBar {
     margin: auto;
-    width: 90%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 2;
     
      header nav {
          background-color: #18181b; 
-         position: fixed;  
+         
 
         .mainNav {
             display: flex;
-            flex-direction: row;
             position: relative;
             top: 1rem;
             list-style: none;
@@ -29,6 +31,7 @@ body {
 
             a{
                 color: #FFF;
+                display: block;
             }
         }
      }
@@ -37,7 +40,7 @@ body {
 
 .push {
     position: relative;
-    left: 50rem;
+    left: 49rem;
 }
 
 .goLeft {
@@ -60,21 +63,28 @@ a {
     bottom: 1.5rem;
 }
 
-// SECTION ARCLABS
+// SECTION PROJECTS
 
-.contaiArclabs {
-    position: relative;
-    left: 13rem;
-    top: 3rem;
+.container {
+   position: relative;
+   left: 15rem;
+   top: 14rem;
+
+    .row2Main{
+        margin-top: 5rem;
+        position: relative;
+        right: 8rem;
+    }
 }
 
-.colArclabs2 {
+.colArclabsGaming2 {
     position: relative;
     top: 15rem;
+    left: 2rem;
     font-size: 1.5rem;
 }
 
-.colArclabsH2{
+.colH2{
     font-size: 3rem;
     color: #FFF;
 }
@@ -84,6 +94,12 @@ a {
 }
 
 .imgArclabs {
+    width: 80%;
+}
+
+
+
+.imgGamingCampus {
     width: 80%;
 }
 
