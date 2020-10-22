@@ -1,0 +1,34 @@
+@import "style.scss";
+@import "libs/responcive.scss";
+
+// ARCLABS
+
+body {
+    background-color: white;
+}
+
+.Container {
+    max-width: 81rem;
+
+    .sectionHeader {
+        margin-bottom: 25rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto 6rem;
+        align-items: center;
+
+        h1 {
+            font-size: 5.6rem;
+            color: #111;
+            margin-bottom: 0;
+            line-height: 1;
+            letter-spacing: -0.1rem;
+        }
+
+        h4 {
+            color: $orange;
+            font-size: 3.5rem;
+        }
+    }
+}
+

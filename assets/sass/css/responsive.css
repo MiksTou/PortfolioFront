@@ -1,0 +1,28 @@
+@media screen and (max-width: 768px) {
+  .body {
+    display: block;
+  }
+
+  .mainNav {
+    display: block;
+  }
+  .mainNav li {
+    padding: 0px;
+  }
+
+  .push {
+    position: relative;
+    left: -15rem;
+  }
+
+  li {
+    padding: 0px;
+    font-size: 0.7;
+  }
+
+  .lig {
+    width: 50px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

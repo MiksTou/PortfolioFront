@@ -1,0 +1,243 @@
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    background-color: red;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #844cb1;
+}
+
+.navBar {
+  margin: auto;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.navBar header nav {
+  background-color: #18181b;
+}
+.navBar header nav .mainNav {
+  display: flex;
+  position: relative;
+  top: 1rem;
+  list-style: none;
+}
+.navBar header nav ul li {
+  padding: 15px;
+  font-size: 2rem;
+}
+.navBar header nav ul li a {
+  color: #FFF;
+  display: block;
+}
+
+.push {
+  position: relative;
+  left: 49rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logoG {
+  width: 100%;
+}
+
+.liG {
+  width: 130px;
+  height: 100px;
+  position: relative;
+  bottom: 1.5rem;
+}
+
+.container {
+  position: relative;
+  left: 15rem;
+  top: 4rem;
+}
+.container .row2Main {
+  margin-top: 5rem;
+  position: relative;
+  right: 8rem;
+}
+
+.colArclabsGaming2 {
+  position: relative;
+  top: 15rem;
+  left: 2rem;
+  font-size: 1.5rem;
+}
+
+.colH2 {
+  font-size: 3rem;
+  color: #FFF;
+}
+
+.orange {
+  color: #E68B45;
+}
+
+.imgArclabs {
+  width: 80%;
+}
+
+.imgGamingCampus {
+  width: 80%;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .aboutSection .firstAboutSection {
+  line-height: 1.3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about .aboutSection .firstAboutSection h1 {
+  font-size: 7rem;
+  margin-top: 6rem;
+  font-weight: bold;
+  color: white;
+}
+.about .aboutSection .firstAboutSection h3 {
+  font-size: 4rem;
+  margin-bottom: 10rem;
+  font-weight: normal;
+}
+
+.aboutSectionBackground {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #282a36;
+  opacity: 0.95;
+  z-index: 1;
+}
+
+.aboutSectionContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+  left: 35rem;
+  margin-bottom: 5rem;
+}
+.aboutSectionContent .imgAbout {
+  width: 40%;
+  display: block;
+  object-fit: cover;
+}
+.aboutSectionContent .smallImage {
+  width: 40rem;
+  border-radius: 50%;
+}
+.aboutSectionContent .smallImage .logoGabout {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+  position: relative;
+  right: 50rem;
+}
+.aboutSectionContent .aboutSectionText {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  right: 54rem;
+}
+.aboutSectionContent .aboutSectionText h5 {
+  font-size: 2rem;
+  color: #E68B45;
+  font-weight: 400;
+}
+.aboutSectionContent .aboutSectionText h4 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.smallImageTalis {
+  position: relative;
+  right: 45rem;
+}
+
+.talisText {
+  position: relative;
+  left: -42rem;
+}
+
+.bottomH3About {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 4rem;
+}
+
+.btn {
+  cursor: pointer;
+  text-align: left;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #E68B45;
+  line-height: 24px;
+  font-size: 11px;
+  letter-spacing: 0.79px;
+  border: #E68B45 3px solid;
+  border-radius: 6px;
+}
+
+.divBtnSubmit {
+  position: relative;
+  left: 19rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+    background-color: red;
+  }
+}
+body {
+  background-color: white;
+}
+
+.Container {
+  max-width: 81rem;
+}
+.Container .sectionHeader {
+  margin-bottom: 25rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 6rem;
+  align-items: center;
+}
+.Container .sectionHeader h1 {
+  font-size: 5.6rem;
+  color: #111;
+  margin-bottom: 0;
+  line-height: 1;
+  letter-spacing: -0.1rem;
+}
+.Container .sectionHeader h4 {
+  color: #E68B45;
+  font-size: 3.5rem;
+}
+
+/*# sourceMappingURL=arclabs.css.map */
