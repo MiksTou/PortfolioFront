@@ -12,6 +12,7 @@
     <body>
 
         <?php include 'libs/header.php'; ?>
+        
         <main>
             <div class="containerGénéral">
                 <section id="banniere-header">

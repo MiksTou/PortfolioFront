@@ -1,8 +1,13 @@
-@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #7d26c4;
+  background-color: #844cb1;
 }
 
 .navBar {
@@ -33,11 +38,6 @@ body {
 .push {
   position: relative;
   left: 49rem;
-}
-
-.goLeft {
-  position: relative;
-  right: 4rem;
 }
 
 a {
@@ -90,53 +90,96 @@ a {
   width: 80%;
 }
 
-.mainDiv {
-  position: relative;
-  top: 2rem;
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.mainDiv h2 {
+.about .aboutSection .firstAboutSection {
+  line-height: 1.3;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
-.mainDiv .container {
-  position: relative;
-  top: 3rem;
-  left: 18rem;
-}
-.mainDiv .row2 {
-  position: relative;
-  top: 4rem;
-}
-
-.fondImgMontagne {
-  background-image: url("../../img/fondAbout/fondAboutMontagne.svg");
-  background-size: cover;
-}
-
-.txtBordRaised {
-  position: relative;
-  left: 15rem;
-  bottom: 3rem;
+.about .aboutSection .firstAboutSection h1 {
+  font-size: 7rem;
+  margin-top: 6rem;
+  font-weight: bold;
   color: white;
 }
-
-.tailleTxtAbout {
-  font-size: x-large;
+.about .aboutSection .firstAboutSection h3 {
+  font-size: 4rem;
+  margin-bottom: 10rem;
+  font-weight: normal;
 }
 
-.imgBordAnd {
-  width: 30%;
+.aboutSectionBackground {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: #282a36;
+  opacity: 0.95;
+}
+
+.aboutSectionContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   position: relative;
-  top: 2.5rem;
+  left: 35rem;
+  margin-bottom: 5rem;
 }
-
-.fondImgForet {
-  background-image: url("../../img/fondAbout/fondForêtAbout.jpg");
-  background-size: cover;
+.aboutSectionContent .imgAbout {
+  width: 40%;
+  display: block;
+  object-fit: cover;
 }
-
-.positionH2bot {
+.aboutSectionContent .smallImage {
+  width: 40rem;
+  border-radius: 50%;
+}
+.aboutSectionContent .smallImage .logoGabout {
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
   position: relative;
-  top: 9rem;
+  right: 50rem;
+}
+.aboutSectionContent .aboutSectionText {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  right: 54rem;
+}
+.aboutSectionContent .aboutSectionText h5 {
+  font-size: 2rem;
+  color: #E68B45;
+  font-weight: 400;
+}
+.aboutSectionContent .aboutSectionText h4 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.smallImageTalis {
+  position: relative;
+  right: 45rem;
+}
+
+.talisText {
+  position: relative;
+  left: -42rem;
+}
+
+.bottomH3About {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-size: 4rem;
 }
 
 .btn {

@@ -8,41 +8,50 @@
     integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/sass/css/style.css">
 </head>
-<html>
-    <body>
+<body>
 
-        <?php include 'libs/header.php'; ?>
-        
-        <div class="mainDiv">
-            <h2>Hi<span class="orange">,</span> I<span class="orange">'</span>m Guillaume<span class="orange">.</span></h2>
+    <?php include 'libs/header.php' ?>
 
-            <h2 class="orange"> I'm a full stack developper </h2>
+      <div class="about">
+            <div class="aboutSection">
+                <div class="firstAboutSection">
+                    <h1>Hi<span class="orange">,</span> I<span class="orange">'</span>m Guillaume<span class="orange">.</span></h1>
 
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 fondImgMontagne">
-                        <img src="assets/img/PAexemple.png" alt="photoProfil" class="imgBordAnd">
-                        <div class="txtBordRaised">  
-                            <h6 class="orange tailleTxtAbout">Bord and raised in</h6>
-                            <h4 class="tailleTxtAbout">Bordeaux, France</h4>
-                        </div>    
-                    </div>
-
-                    
-                </div>
-
-                <div class="row row2">
-                    <div class="col-sm-6 fondImgForet">
-                        <img src="assets/img/logo/logoTalis.png" alt="photoProfil" class="imgBordAnd">
-                            <div class="txtBordRaised">  
-                                <h6 class="orange tailleTxtAbout">Student in</h6>
-                                <h4 class="tailleTxtAbout">Talis Buisness School</h4>
-                            </div>    
-                    </div>
+                        <h3 class="orange"> I'm a full stack developper </h3>
                 </div>
             </div>
-            <h2 class="positionH2bot orange">Currently student at Talis</h2>
         </div>
+
+       
+
+            <div class="aboutSectionContent">
+                <img src="assets/img/fondAbout/fondAboutMontagne.svg" alt="imgAboutG" class="imgAbout">
+
+                <div class="smallImage">
+                    <img src="assets/img/logo/logoGnavBar.png" alt="logoG" class="logoGabout">
+                </div>
+
+                <div class="aboutSectionText">
+                    <h5 class="orange tailleTxtAbout">Bord and raised in</h5>
+                    <h4 class="tailleTxtAbout">Bordeaux, France</h4>
+                </div>
+            </div>
+
+            
+            <div class="aboutSectionContent">
+                <img src="assets/img/fondAbout/fondForêtAbout.jpg" alt="imgAboutTalis" class="imgAbout">
+
+                <div class="smallImageTalis">
+                    <img src="assets/img/logo/logoTalis.png" alt="logoG" class="logoTalisAbout">
+                </div>
+
+                <div class="aboutSectionText talisText">
+                    <h5 class="orange tailleTxtAbout">Student In</h5>
+                    <h4 class="tailleTxtAbout">Talis Buisness School</h4>
+                </div>
+            </div>
+
+            <h3 class="orange bottomH3About">Currently student at Talis!</h3>
 
 
 
