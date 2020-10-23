@@ -19,6 +19,23 @@ body {
     background-color: $backgoundColor;
 }
 
+.logoG {
+   
+    margin: auto;
+    background: url('http://45.79.67.59/logo_thumb_bar.jpg');
+    background-size: cover;
+  
+  }
+  
+  @keyframes play {
+      100% { background-position: 200vw; }
+  }
+  .logoG:hover{
+    -webkit-animation: notexistent;
+      animation: notexistent;
+    animation: play 2.5s steps(5) infinite;
+  }
+
 .navBar {
     margin: auto;
     width: 100%;
@@ -57,10 +74,15 @@ body {
         ul li{
             padding: 15px;
             font-size: 2rem;
+            text-decoration: none;
 
-            a{
+            a {
                 color: #FFF;
                 display: block;
+            }
+
+            a:active {
+                color: $orange;
             }
         }
      }
