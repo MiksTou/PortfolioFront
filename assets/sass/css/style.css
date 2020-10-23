@@ -1,12 +1,14 @@
+@font-face {
+  font-family: "PlayfairDisplay-VariableFont_wght.ttf";
+  src: url(../font/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: "PlayfairDisplay-VariableFont_wght.ttf", Arial, Helvetica, sans-serif;
 }
 
 body {
-  margin: 0px;
-  padding: 0px;
   background-color: #844cb1;
 }
 
@@ -19,12 +21,26 @@ body {
 }
 .navBar header nav {
   background-color: #18181b;
+  z-index: 2;
 }
 .navBar header nav .mainNav {
   display: flex;
   position: relative;
   top: 1rem;
   list-style: none;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 2;
+}
+.navBar header nav .goLeft {
+  display: flex;
+  flex-direction: row;
+}
+.navBar header nav .goRigth {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 2rem;
 }
 .navBar header nav ul li {
   padding: 15px;
@@ -36,8 +52,8 @@ body {
 }
 
 .push {
-  position: relative;
-  left: 49rem;
+  display: flex;
+  justify-content: flex-end;
 }
 
 a {
@@ -60,10 +76,9 @@ a {
   left: 15rem;
   top: 4rem;
 }
-.container .row2Main {
-  margin-top: 5rem;
-  position: relative;
-  right: 8rem;
+.container .divRow {
+  display: flex;
+  flex-direction: row;
 }
 
 .colArclabsGaming2 {
@@ -94,6 +109,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 1;
 }
 .about .aboutSection .firstAboutSection {
   line-height: 1.3;
@@ -120,6 +136,7 @@ a {
   width: 100%;
   background-color: #282a36;
   opacity: 0.95;
+  z-index: 1;
 }
 
 .aboutSectionContent {
@@ -127,6 +144,7 @@ a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  z-index: 1;
   position: relative;
   left: 35rem;
   margin-bottom: 5rem;

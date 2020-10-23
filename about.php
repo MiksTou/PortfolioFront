@@ -14,46 +14,46 @@
 
     <?php include 'libs/header.php' ?>
 
-      <div class="about">
-            <div class="aboutSection">
-                <div class="firstAboutSection">
-                    <h1>Hi<span class="orange">,</span> I<span class="orange">'</span>m Guillaume<span class="orange">.</span></h1>
+    <div class="about">
+        <div class="aboutSection">
+            <div class="firstAboutSection">
+                <h1>Hi<span class="orange">,</span> I<span class="orange">'</span>m Guillaume<span class="orange">.</span></h1>
 
-                        <h3 class="orange"> I'm a full stack developper </h3>
-                </div>
+                    <h3 class="orange"> I'm a full stack developper </h3>
             </div>
         </div>
+     </div>
 
        
 
-            <div class="aboutSectionContent">
-                <img src="assets/img/fondAbout/fondAboutMontagne.svg" alt="imgAboutG" class="imgAbout">
+    <div class="aboutSectionContent">
+        <img src="assets/img/fondAbout/fondAboutMontagne.svg" alt="imgAboutG" class="imgAbout">
 
-                <div class="smallImage">
-                    <img src="assets/img/logo/logoGnavBar.png" alt="logoG" class="logoGabout">
-                </div>
+        <div class="smallImage">
+                <img src="assets/img/logo/logoGnavBar.png" alt="logoG" class="logoGabout">
+        </div>
 
-                <div class="aboutSectionText">
-                    <h5 class="orange tailleTxtAbout">Bord and raised in</h5>
-                    <h4 class="tailleTxtAbout">Bordeaux, France</h4>
-                </div>
-            </div>
+        <div class="aboutSectionText">
+            <h5 class="orange tailleTxtAbout">Bord and raised in</h5>
+            <h4 class="tailleTxtAbout">Bordeaux, France</h4>
+        </div>
+    </div>
 
             
-            <div class="aboutSectionContent">
-                <img src="assets/img/fondAbout/fondForêtAbout.jpg" alt="imgAboutTalis" class="imgAbout">
+    <div class="aboutSectionContent">
+            <img src="assets/img/fondAbout/fondForêtAbout.jpg" alt="imgAboutTalis" class="imgAbout">
 
-                <div class="smallImageTalis">
-                    <img src="assets/img/logo/logoTalis.png" alt="logoG" class="logoTalisAbout">
-                </div>
-
-                <div class="aboutSectionText talisText">
-                    <h5 class="orange tailleTxtAbout">Student In</h5>
-                    <h4 class="tailleTxtAbout">Talis Buisness School</h4>
-                </div>
+            <div class="smallImageTalis">
+              <img src="assets/img/logo/logoTalis.png" alt="logoG" class="logoTalisAbout">
             </div>
 
-            <h3 class="orange bottomH3About">Currently student at Talis!</h3>
+            <div class="aboutSectionText talisText">
+                <h5 class="orange tailleTxtAbout">Student In</h5>
+                <h4 class="tailleTxtAbout">Talis Buisness School</h4>
+            </div>
+        </div>
+
+        <h3 class="orange bottomH3About">Currently student at Talis!</h3>
 
 
 
