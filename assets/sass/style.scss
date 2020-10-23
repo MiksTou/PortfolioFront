@@ -246,6 +246,49 @@ a {
 
 // CONTACT
 
+.divContactezNous {
+    background-color: $orange;
+    width: 100%;
+    height: 10rem;
+}
+
+.info h1 {
+    padding-top: 50px;
+
+}
+
+.wrapper-form {
+    background-color:white;
+    width: 40%;
+    position: fixed;
+    top: 37%;
+    left: 30%;
+
+        .content {
+            position: relative;
+            left: 6rem;
+        }
+}
+
+
+
+.italic {
+    font-style: italic;
+    color: white;
+}
+
+.unProjet {
+    color: $orange;
+    position: relative;
+    left: 8.5rem;
+    margin-top: 1rem;
+}
+
+.objet-demande {
+    width: 75.5%;
+    
+}
+
 .btn {
     cursor: pointer;
     text-align: left;
@@ -261,5 +304,14 @@ a {
 
 .divBtnSubmit {
     position: relative;
-    left: 19rem;
+    left: 13rem;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+        :hover {
+            color: white;
+            border-color: $orange;
+        }
 }
+

@@ -16,7 +16,7 @@
         <main>
             <div class="containerGénéral">
                 <section id="banniere-header">
-                   <div class="container-fluid background-img" style="background-color: white">
+                   <div class="container-fluid background-img divContactezNous">
                         <div class="capsule">
                             <div class="cell is-third left">
                                 <div class="info">
@@ -32,7 +32,7 @@
                         <form action="">
                             <div class="container wrapper-form">
 
-                                <h2>Un projet,une envie, une question?</h2>
+                                <h2 class="unProjet">Un projet,une envie, une question?</h2>
                                
                                 <div class="row content">
                                     <div class="col-12">
@@ -77,7 +77,7 @@
                                             <span class="boltforms-label col-12"><label for="votredemande" class="required">Votre demande</label></span>
                                             <span class="boltforms-error col-12"></span>
                                             <span class="boltforms-value col-12">
-                                                <div class="select">
+                                                <div class="select selectDemande">
                                                     <select id="votredemande" name="votredemande" class="objet-demande"><option value="Demande de devis">Demande de devis</option><option value="Demande d&#039;informations">Demande d&#039;informations</option></select>
                                                 </div>   
                                             </span>
@@ -88,11 +88,11 @@
                                         <div class="boltforms-row row">
                                             <span class="boltforms-label col-12"><label for="message" class="required">Votre message</label></span>
                                             <span class="boltforms-error col-12"></span>
-                                            <span class="boltforms-value col-12"><textarea id="message" name="message" required="required" rows="7" cols="84"></textarea></span>
+                                            <span class="boltforms-value col-12"><textarea id="message" name="message" required="required" rows="7" cols="72"></textarea></span>
                                         </div>
                                      </div>
 
-                                     <div class="col-12 recaptcha">
+                                     <!-- <div class="col-12 recaptcha">
                                         
                                             <div class="boltforms-row">
                                                 <span class="boltforms-label">
@@ -101,7 +101,7 @@
                                             <div class="g-recaptcha" data-sitekey="6LcBjdgUAAAAAGxZ6vj6-zwgPhJqSSiVTPvSvZAB"></div>
                                         </div>
                                 
-                                    </div>
+                                    </div> -->
 
                                     <div class="divBtnSubmit">
                                         <button class="btn">

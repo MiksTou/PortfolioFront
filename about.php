@@ -34,7 +34,7 @@
         </div>
 
         <div class="aboutSectionText">
-            <h5 class="orange tailleTxtAbout">Bord and raised in</h5>
+            <h5 class="orange tailleTxtAbout">Born and raised in</h5>
             <h4 class="tailleTxtAbout">Bordeaux, France</h4>
         </div>
     </div>
