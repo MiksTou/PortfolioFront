@@ -155,6 +155,8 @@ a {
     flex-direction: column;
     align-items: center;
     z-index: 1;
+    position: relative;
+    left: 4rem;
    
         .aboutSection {
         
@@ -203,7 +205,7 @@ a {
     align-items: center;
     z-index: 1;
     position: relative;
-    left: 35rem;
+    left: 30rem;
     margin-bottom: 5rem;
 
         .imgAbout {
@@ -218,11 +220,11 @@ a {
         
 
             .logoGabout {
-                width: 100%;
+                width: 80%;
                 border-radius: 50%;
                 object-fit: contain;
                 position: relative;
-                right: 50rem;
+                right: 40rem;
             }
         }
         
@@ -232,17 +234,17 @@ a {
             flex-direction: column;
             justify-content: center;
             position: relative;
-            right: 54rem;
+            right: 47rem;
 
                 h5 {
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                     color: $orange;
                     font-weight: 400;
                 }
 
                 h4 {
                     color: white;
-                    font-size: 2.5rem;
+                    font-size: 2rem;
                     font-weight: 600;
                    
                 }
@@ -251,12 +253,20 @@ a {
 
 .smallImageTalis {
     position: relative;
-    right: 45rem;
+    right: 35rem;
+    width: 50%;
+}
+
+.logoTalisAbout {
+    width: 130px;
 }
 
 .talisText {
     position: relative;
-    left: -42rem;
+    left: -50rem;
+    width: 100%;
+
+    
 }
 
 .bottomH3About {
@@ -281,7 +291,8 @@ a {
 
 .wrapper-form {
     background-color:white;
-    width: 40%;
+    width: 60%;
+    margin-top: 30px;
     position: fixed;
     top: 37%;
     left: 30%;
